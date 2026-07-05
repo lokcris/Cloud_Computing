@@ -23,7 +23,7 @@
   <h4>Role-Based Access Control (RBAC) & Principle of Least Privilege</h4>
   <p>
     I implemented granular Role-Based Access Control (RBAC) by mapping specific LDAP groups to OpenNebula roles. 
-    Users were assigned only the minimum permissions required for their functions (e.g., "Operator" vs "Administrator"), 
+    Users were assigned only the minimum permissions required for their functions (Admin, Student, Lecturer), 
     ensuring that potential damage from a compromised account is strictly limited.
   </p>
 
